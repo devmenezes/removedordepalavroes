@@ -1,3 +1,5 @@
+https://img.shields.io/github/license/devmenezes/removedordepalavroes
+
 # Como usar
 
 3 passos para utilização.
