@@ -1,4 +1,5 @@
-https://img.shields.io/github/license/devmenezes/removedordepalavroes
+
+![GitHub](https://img.shields.io/github/license/devmenezes/removedordepalavroes) ![GitHub manifest version](https://img.shields.io/github/manifest-json/v/devmenezes/removedordepalavroes)
 
 # Como usar
 
