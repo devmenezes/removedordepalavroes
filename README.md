@@ -5,7 +5,6 @@
 ## 1 - Instancie um RemovedorDePalavroes
 ```
 $removedor = new RemovedorDePalavroes();
-$textoProcessado = $removedor->processa($texto);
 ```
 
 ## 2 - Passe um texto pra ele processar
