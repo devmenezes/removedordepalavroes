@@ -8,8 +8,8 @@ class RemocaoDePalavroesTest extends TestCase
 
     public function testaAnimais()
     {
-        $texto = "veado. vaca";
-        $ideal = "***** ****";
+        $texto = "Aquela vaca";
+        $ideal = "Aquela ****";
 
         $removedor = new RemovedorDePalavroes();
         $textoProcessado = $removedor->processa($texto);
