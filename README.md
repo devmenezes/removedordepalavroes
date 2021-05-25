@@ -27,4 +27,14 @@ $textoLimpo = $removedor->processa($texto);
 
 
 
-## 4 - Não tem passo 4... hehe
+# Você ainda pode configurar (build) seu removedor para aceitar alguns tipos de palavras, de acordo com sua necessidade.
+
+Exemplo: para um sistema que tenha que aceitar nomes de animais e de drogas ilícitas.
+```
+$removedor = new RemovedorDePalavroes();
+$removedor->permitirAnimais()->permitirDrogas();
+$textoProcessado = $removedor->processa($texto);
+$texto = "Aquela vaca";
+$textoLimpo = $removedor->processa($texto);
+
+#### Resultado"Aquela vaca";
