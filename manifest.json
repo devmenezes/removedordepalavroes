@@ -1,4 +1,8 @@
 {
-    "name": "Removedor de Palavrões",
-    "version": "0.0.1",
-  }
+  "vendor": "vtex",
+  "name": "Removedor de Palavrões",
+  "title": "Removedor de Palavrões",
+  "description": "Pacote PHP para remoção de palavrões em português do Brasil.",
+  "defaultLocale": "pt-BR",
+  "version": "0.0.1"
+}
