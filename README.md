@@ -1,5 +1,5 @@
 
-![GitHub](https://img.shields.io/github/license/devmenezes/removedordepalavroes) ![GitHub manifest version](https://img.shields.io/github/manifest-json/v/devmenezes/removedordepalavroes)
+![GitHub](https://img.shields.io/github/license/devmenezes/removedordepalavroes?style=flat-square) ![GitHub manifest version](https://img.shields.io/github/manifest-json/v/devmenezes/removedordepalavroes?style=flat-square)
 
 # Como usar
 
