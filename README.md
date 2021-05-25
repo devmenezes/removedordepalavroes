@@ -28,6 +28,13 @@ $textoLimpo = $removedor->processa($texto);
 ####     Resultado"Aquela ****";
 
 
+## Adicione ou remova palavrões
+
+Edite as Listas de Palavras (elas se encontram no diretório src/WordLists).
+Não utilize acentos ou símbolos nessas palavras.
+Adicione ou remova quantas quiser.
+
+Aceitamos sugestões de novas palavras (rafael.87@gmail.com)
 
 ## Você ainda pode configurar (build) seu removedor para aceitar alguns tipos de palavras, de acordo com sua necessidade.
 
