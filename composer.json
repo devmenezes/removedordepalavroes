@@ -5,14 +5,12 @@
   "type": "library",
   "license": "MIT",
   "keywords": [
-    "cnpj",
-    "cpf",
-    "validador",
-    "documento",
-    "brasil",
-    "laravel"
+    "palavrões",
+    "português",
+    "pt-br",
+    "badwords"
   ],
-  "homepage": "https://github.com/bissolli/validador-cpf-cnpj",
+  "homepage": "https://github.com/devmenezes/removedordepalavroes",
   "scripts": {
     "test": [
       "vendor/bin/phpunit"
