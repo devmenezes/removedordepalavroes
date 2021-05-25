@@ -1,6 +1,23 @@
 {
   "name": "devmenezes/removerpalavroes",
   "description": "Pacote PHP para remover palavrões em português(pt-BR)",
+  "version": "1.2.2",
+  "type": "library",
+  "license": "MIT",
+  "keywords": [
+    "cnpj",
+    "cpf",
+    "validador",
+    "documento",
+    "brasil",
+    "laravel"
+  ],
+  "homepage": "https://github.com/bissolli/validador-cpf-cnpj",
+  "scripts": {
+    "test": [
+      "vendor/bin/phpunit"
+    ]
+  },
   "authors": [
     {
       "name": "Rafael Menezes",
