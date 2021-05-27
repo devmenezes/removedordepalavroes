@@ -4,5 +4,5 @@
   "title": "Removedor de Palavrões",
   "description": "Pacote PHP para remover palavrões em português(pt-BR)",
   "defaultLocale": "pt-BR",
-  "version": "0.0.1"
+  "version": "0.0.2"
 }

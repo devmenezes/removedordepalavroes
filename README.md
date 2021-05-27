@@ -1,3 +1,5 @@
+### Aviso: as listas de palavras (em src/WordLists) contém palavrões. Caso isso seja um problema/gatilho pra você ou você seja menor de idade não abra aqueles arquivos.
+
 
 ![GitHub](https://img.shields.io/github/license/devmenezes/removedordepalavroes?style=flat-square) ![GitHub manifest version](https://img.shields.io/github/manifest-json/v/devmenezes/removedordepalavroes?style=flat-square)
 

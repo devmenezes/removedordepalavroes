@@ -75,6 +75,7 @@ class Ofensas extends BadWordList
     "Estupidez",
     "Estupido",
     "Felacao",
+    "Fdp",
     "Foda",
     "Fodao",
     "Fode",
