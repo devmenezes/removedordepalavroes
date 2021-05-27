@@ -6,13 +6,19 @@ use RemoverPalavroes\RemovedorDePalavroes;
 class RemocaoDePalavroesTest extends TestCase
 {
 
+    private $removedor;
+
+    protected function setUp():void
+    {
+        $this->removedor = new RemovedorDePalavroes();
+    }
+
     public function testaAnimais()
     {
         $texto = "veado. vaca";
         $ideal = "***** ****";
 
-        $removedor = new RemovedorDePalavroes();
-        $textoProcessado = $removedor->processa($texto);
+        $textoProcessado = $this->removedor->processa($texto);
 
         $this->assertEquals($ideal, $textoProcessado);
     }
@@ -22,8 +28,7 @@ class RemocaoDePalavroesTest extends TestCase
         $texto = "Testando com TestABC9Uoooi";
         $ideal = "Testando com *************";
 
-        $removedor = new RemovedorDePalavroes();
-        $textoProcessado = $removedor->processa($texto);
+        $textoProcessado = $this->removedor->processa($texto);
 
         $this->assertEquals($ideal, $textoProcessado);
     }
@@ -33,8 +38,7 @@ class RemocaoDePalavroesTest extends TestCase
         $texto = "maconha cocaína";
         $ideal = "******* *******";
 
-        $removedor = new RemovedorDePalavroes();
-        $textoProcessado = $removedor->processa($texto);
+        $textoProcessado = $this->removedor->processa($texto);
 
         $this->assertEquals($ideal, $textoProcessado);
     }
@@ -44,8 +48,7 @@ class RemocaoDePalavroesTest extends TestCase
         $texto = "ânus, Gonorreia";
         $ideal = "**** *********";
 
-        $removedor = new RemovedorDePalavroes();
-        $textoProcessado = $removedor->processa($texto);
+        $textoProcessado = $this->removedor->processa($texto);
 
         $this->assertEquals($ideal, $textoProcessado);
     }
@@ -55,8 +58,7 @@ class RemocaoDePalavroesTest extends TestCase
         $texto = "Homossexual, Transexual";
         $ideal = "*********** **********";
 
-        $removedor = new RemovedorDePalavroes();
-        $textoProcessado = $removedor->processa($texto);
+        $textoProcessado = $this->removedor->processa($texto);
 
         $this->assertEquals($ideal, $textoProcessado);
     }
@@ -66,8 +68,7 @@ class RemocaoDePalavroesTest extends TestCase
         $texto = "L@drão Fei0so";
         $ideal = "****** ******";
 
-        $removedor = new RemovedorDePalavroes();
-        $textoProcessado = $removedor->processa($texto);
+        $textoProcessado = $this->removedor->processa($texto);
 
         $this->assertEquals($ideal, $textoProcessado);
     }
@@ -77,8 +78,7 @@ class RemocaoDePalavroesTest extends TestCase
         $texto = "vsf pqp vag@bund0 m3rda baba-ovo";
         $ideal = "*** *** ********* ***** *******";
 
-        $removedor = new RemovedorDePalavroes();
-        $textoProcessado = $removedor->processa($texto);
+        $textoProcessado = $this->removedor->processa($texto);
 
         $this->assertEquals($ideal, $textoProcessado);
     }
@@ -88,8 +88,7 @@ class RemocaoDePalavroesTest extends TestCase
         $texto = "Nego/ /judeu/zinho";
         $ideal = "**** **********";
 
-        $removedor = new RemovedorDePalavroes();
-        $textoProcessado = $removedor->processa($texto);
+        $textoProcessado = $this->removedor->processa($texto);
 
         $this->assertEquals($ideal, $textoProcessado);
     }

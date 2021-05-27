@@ -31,7 +31,7 @@ $textoLimpo = $removedor->processa($texto);
 ## Adicione ou remova palavrões
 
 Edite as Listas de Palavras (elas se encontram no diretório src/WordLists).
-Não utilize acentos ou símbolos nessas palavras.
+O ideal é que não utilize acentos ou símbolos nessas palavras.
 Adicione ou remova quantas quiser.
 
 Aceitamos sugestões de novas palavras (rafael.87@gmail.com)
